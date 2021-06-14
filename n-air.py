@@ -37,8 +37,9 @@ N-AIR adalah pintasan sederhana untuk paket AIR
             print("\n")
             print("List Interfaces : ")
             interface = getnic.interfaces()
-            print(*interface, sep = " | ")
-            print("---------------------")
+            print("====================")
+            print(*interface, sep = " |*| ")
+            print("====================")
             print(" [0] Kembali")
             mi = input("interfaces > ")
             if mi == "0":
